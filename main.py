@@ -1,6 +1,7 @@
 import cv2
 from flask import Flask, Response
-
+# om man tar bara main.py
+# pip install opencv-python-headless flask
 app = Flask(__name__)
 
 def generate_frames():
