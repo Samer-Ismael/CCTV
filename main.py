@@ -4,7 +4,7 @@ from flask import Flask, Response
 app = Flask(__name__)
 
 def generate_frames():
-    camera = cv2.VideoCapture(0)  # Use the default camera (usually your webcam)
+    camera = cv2.VideoCapture(0) git
 
     while True:
         success, frame = camera.read()
