@@ -42,10 +42,8 @@ def index():
           <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-            <title>CCTV Camera</title>
           </head>
           <body>
-            <h1>CCTV Camera Feed</h1>
             <img src="{{ url_for('video_feed') }}" width="640" height="480">
           </body>
         </html>
