@@ -10,12 +10,13 @@ A very simple CCTV camera application in Python. This project allows you to host
 ## Installation
 
 1. Clone the repository:
+
     ```sh
     git clone https://github.com/Samer-Ismael/CCTV.git
-    cd CCTV
     ```
 
 2. Install the required dependencies:
+
     ```sh
     pip install -r requirements.txt
     ```
@@ -23,6 +24,7 @@ A very simple CCTV camera application in Python. This project allows you to host
 ## Usage
 
 1. Run the application:
+
     ```sh
     python main.py
     ```
@@ -36,6 +38,7 @@ To deploy this application to a Raspberry Pi and run it as a service, follow the
 1. Ensure SSH is enabled on your Raspberry Pi.
 2. Update the `deploy.sh` script with the correct Raspberry Pi user and host.
 3. Run the deployment script:
+
     ```sh
     ./deploy.sh
     ```
