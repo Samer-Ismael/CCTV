@@ -3,7 +3,7 @@
 echo 'Starting deployment script...'
 
 PI_USER=samer
-PI_HOST=192.168.0.22
+PI_HOST=192.168.0.25
 PI_PATH=/home/samer/cctv
 SERVICE_NAME=cctv.service
 FILES='main.py requirements.txt'
